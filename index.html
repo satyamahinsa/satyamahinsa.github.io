@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Satyamahinsa</title>
+  <link rel="stylesheet" href="public/css/output.css" />
+</head>
+
+<body class="font-inter">
+  <!-- Navbar Start -->
+  <nav id="navbar" class="fixed bottom-0 left-0 z-10 w-full lg:top-0 lg:bottom-full">
+    <div
+      class="relative flex w-full items-center justify-between border-t border-slate-300 bg-white bg-opacity-50 px-4 backdrop-blur-sm dark:border-slate-700 dark:bg-dark dark:bg-opacity-50 lg:border-t-0 lg:border-b">
+      <h1 class="py-3 text-lg font-bold text-primary">Satyamahinsa</h1>
+      <div id="nav-menu"
+        class="absolute right-0 bottom-full hidden w-full bg-white py-5 dark:bg-dark lg:static lg:ml-10 lg:block lg:bg-transparent dark:lg:bg-transparent">
+        <ul class="grid grid-cols-3 gap-1 divide-x-2 dark:divide-slate-800 lg:flex lg:justify-end lg:divide-x-0">
+          <li class="max-w-32 group lg:pl-16">
+            <a href="#home"
+              class="block py-2 text-center text-sm transition duration-300 dark:text-white lg:text-dark lg:group-hover:text-primary dark:lg:text-white">
+              <img src="public/img/icon/home.svg" alt="Home Icon" class="mx-auto block w-5 lg:hidden" />Home</a>
+          </li>
+          <li class="max-w-32 group lg:pl-16">
+            <a href="#about"
+              class="mx-auto block py-2 text-center text-sm transition duration-300 dark:text-white lg:text-dark lg:group-hover:text-primary dark:lg:text-white">
+              <img src="public/img/icon/user.svg" alt="About Icon" class="mx-auto block w-5 lg:hidden" />About</a>
+          </li>
+          <li class="max-w-32 group lg:pl-16">
+            <a href="#qualification"
+              class="mx-auto block py-2 text-center text-sm transition duration-300 dark:text-white lg:text-dark lg:group-hover:text-primary dark:lg:text-white">
+              <img src="public/img/icon/book-reader.svg" alt="Qualification Icon"
+                class="mx-auto block w-5 lg:hidden" />Qualification</a>
+          </li>
+          <li class="max-w-32 group lg:pl-16">
+            <a href="#achievement"
+              class="mx-auto block py-2 text-center text-sm transition duration-300 dark:text-white lg:text-dark lg:group-hover:text-primary dark:lg:text-white">
+              <img src="public/img/icon/trophy.svg" alt="Achievement Icon"
+                class="mx-auto block w-5 lg:hidden" />Achievement</a>
+          </li>
+          <li class="max-w-32 group lg:pl-16">
+            <a href="#gallery"
+              class="mx-auto block py-2 text-center text-sm transition duration-300 dark:text-white lg:text-dark lg:group-hover:text-primary dark:lg:text-white">
+              <img src="public/img/icon/image.svg" alt="Gallery Icon" class="mx-auto block w-5 lg:hidden" />Gallery</a>
+          </li>
+          <li class="max-w-32 group lg:pl-16">
+            <a href="#portfolio"
+              class="mx-auto block py-2 text-center text-sm transition duration-300 dark:text-white lg:text-dark lg:group-hover:text-primary dark:lg:text-white">
+              <img src="public/img/icon/books.svg" alt="Home Icon"
+                class="block w-5 last:mx-auto lg:hidden" />Portfolio</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex items-center px-10 lg:pl-16 lg:pr-5">
+        <img src="public/img/icon/moon.svg" alt="Dark Mode Icon" id="moon-toggle"
+          class="w-6 cursor-pointer pb-1 lg:w-9" />
+        <img src="public/img/icon/sun.svg" alt="Dark Mode Icon" id="sun-toggle"
+          class="w-6 cursor-pointer pb-1 lg:w-9" />
+        <button id="hamburger" name="hamburger" type="button" class="absolute right-5 top-2 block lg:hidden">
+          <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+          <span class="hamburger-line transition duration-300 ease-in-out"></span>
+          <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Header Start -->
+  <header id="home" class="pb-20 pt-10 dark:bg-dark lg:pt-32">
+    <div class="container">
+      <div class="lg:flex lg:flex-wrap lg:items-center lg:justify-between">
+        <div class="w-full px-4 lg:w-1/2">
+          <img src=" public/img/profile/satyamahinsa.jpg" alt="Satyamahinsa"
+            class="mx-auto w-60 max-w-full rounded-full shadow-md lg:w-96" />
+        </div>
+        <div class="w-full px-4 lg:w-1/2">
+          <h1 class="mb-2 text-4xl font-bold text-primary lg:text-6xl">
+            Hi, I am
+            <span class="text-dark dark:text-white">Satyamahinsa</span>
+          </h1>
+          <h2 class="mb-5 text-xl font-semibold text-secondary lg:text-2xl">
+            Web Developer | Photography & Videography
+          </h2>
+          <p class="mb-8 text-sm font-normal italic text-secondary">
+            "Do the difficult things while they are easy and do the great things while they are small. A journey of a
+            thousand miles must begin with a single step."
+          </p>
+          <a href="#contact"
+            class="rounded-full bg-primary py-3 px-5 text-sm text-white transition duration-500 hover:bg-red-400 hover:shadow-lg lg:text-lg">Contact
+            Me
+            <img src="public/img/icon/arrow-circle-right.svg" alt="Arrow Right" class="inline h-5 w-5 pb-0.5" /></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- About Me Start -->
+  <section id="about" class="pb-20 pt-10 dark:bg-dark lg:pt-24">
+    <div class="container lg:flex">
+      <div class="mb-20 w-full px-4 lg:px-10 lg:w-1/2">
+        <h1 class="mb-3 text-lg font-bold uppercase text-primary">
+          About Me
+        </h1>
+        <h2 class="mb-5 text-3xl font-bold text-dark dark:text-white">
+          My Introduction
+        </h2>
+        <p class="text-base font-medium text-secondary">
+          Hello! Whats up?. My name is <span class="font-bold text-dark dark:text-white">Gede Satyamahinsa Prastita
+            Uttama</span>,
+          you can call
+          me Satya. Come from the
+          beautiful island of Bali. And im still vibing on my 18th. Love speeding time on my laptop. Hoping
+          nice to know you all!
+        </p>
+      </div>
+      <div class="w-full px-4 lg:px-10 lg:mt-10 lg:w-1/2">
+        <h2 class="mb-5 text-3xl font-bold text-dark dark:text-white">
+          My Skills
+        </h2>
+        <p class="mb-5 text-base font-medium text-secondary">
+          I have some hard skills and soft skills inside of me:
+        </p>
+        <div class="w-full">
+          <ul class="flex flex-wrap">
+            <li class="mx-1 my-1 rounded-lg bg-primary px-5 py-3">
+              <p class="text-base font-semibold text-white">Coding</p>
+            </li>
+            <li class="mx-1 my-1 rounded-lg bg-primary px-5 py-3">
+              <p class="text-base font-semibold text-white">Photography</p>
+            </li>
+            <li class="mx-1 my-1 rounded-lg bg-primary px-5 py-3">
+              <p class="text-base font-semibold text-white">Videography</p>
+            </li>
+            <li class="mx-1 my-1 rounded-lg bg-primary px-5 py-3">
+              <p class="text-base font-semibold text-white">Editor</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Me End -->
+
+  <!-- Qualification Start -->
+  <section id="qualification" class="bg-slate-100 pb-20 pt-10 dark:bg-slate-800 lg:pt-24">
+    <div class="container">
+      <div class="w-full px-4 text-center">
+        <h1 class="mb-3 text-lg font-bold uppercase text-primary">
+          Qualification
+        </h1>
+        <h2 class="mb-5 text-3xl font-bold text-dark dark:text-white">
+          My Personal Journey
+        </h2>
+      </div>
+      <div class="flex w-full justify-evenly px-4">
+        <a href="#education" id="education-icon" class="flex items-center pt-1 text-secondary"><img
+            src="public/img/icon/education.svg" alt="Education Icon" class="mx-1 w-7" />Education</a>
+        <a href="#work" id="work-icon" class="flex items-center pt-1 text-secondary"><img src="public/img/icon/work.svg"
+            alt="Education Icon" class="mx-1 w-6" />Work</a>
+      </div>
+      <div class="w-full px-4">
+        <div id="education-data" class="mt-10 flex w-full justify-center px-4">
+          <ul class="grid grid-cols-3 md:grid-cols-5">
+            <li class="mb-5 md:col-start-2">
+              <h3 class="text-xl font-semibold text-dark dark:text-white">
+                TK Sandhy Putra
+              </h3>
+              <p class="text-base font-medium text-dark dark:text-white">
+                Singaraja, Bali
+              </p>
+              <p class="flex items-center text-sm text-secondary">
+                <img src="public/img/icon/calendar.svg" alt="Calender Icon" class="mr-1 w-5" />2008 - 2010
+              </p>
+            </li>
+            <li>
+              <span class="relative mx-auto mt-10 block h-5 w-5 rounded-full bg-primary">
+              </span>
+              <span class="relative mx-auto block h-full w-1 rounded-lg bg-primary">
+              </span>
+            </li>
+            <li class="col-start-3 row-start-2 mb-5 md:col-start-4">
+              <h3 class="text-xl font-semibold text-dark dark:text-white">
+                SD Negeri 3 Banjar Jawa
+              </h3>
+              <p class="text-base font-medium text-dark dark:text-white">
+                Singaraja, Bali
+              </p>
+              <p class="flex items-center text-sm text-secondary">
+                <img src="public/img/icon/calendar.svg" alt="Calender Icon" class="mr-1 w-5" />2010 - 2016
+              </p>
+            </li>
+            <li class="col-start-2 row-start-2 md:col-start-3">
+              <span class="relative mx-auto mt-10 block h-5 w-5 rounded-full bg-primary">
+              </span>
+              <span class="relative mx-auto block h-full w-1 rounded-lg bg-primary">
+              </span>
+            </li>
+            <li class="row-start-3 mb-5 md:col-start-2">
+              <h3 class="text-xl font-semibold text-dark dark:text-white">
+                SMP Negeri 1 Singaraja
+              </h3>
+              <p class="text-base font-medium text-dark dark:text-white">
+                Singaraja, Bali
+              </p>
+              <p class="flex items-center text-sm text-secondary">
+                <img src="public/img/icon/calendar.svg" alt="Calender Icon" class="mr-1 w-5" />2016 - 2019
+              </p>
+            </li>
+            <li class="col-start-2 row-start-3 md:col-start-3">
+              <span class="relative mx-auto mt-10 block h-5 w-5 rounded-full bg-primary">
+              </span>
+              <span class="relative mx-auto block h-full w-1 rounded-lg bg-primary">
+              </span>
+            </li>
+            <li class="col-start-3 row-start-4 mb-5 md:col-start-4">
+              <h3 class="text-xl font-semibold text-dark dark:text-white">
+                SMA Negeri 1 Singaraja
+              </h3>
+              <p class="text-base font-medium text-dark dark:text-white">
+                Singaraja, Bali
+              </p>
+              <p class="flex items-center text-sm text-secondary">
+                <img src="public/img/icon/calendar.svg" alt="Calender Icon" class="mr-1 w-5" />2019 - 2022
+              </p>
+            </li>
+            <li class="col-start-2 row-start-4 mb-5 md:col-start-3">
+              <span class="relative mx-auto mt-10 block h-5 w-5 rounded-full bg-primary">
+              </span>
+              <span class="relative mx-auto block h-full w-1 rounded-lg bg-primary">
+              </span>
+            </li>
+            <li class="row-start-5 mb-5 md:col-start-2">
+              <h3 class="text-xl font-semibold text-dark dark:text-white">
+                Institut Teknologi Telkom Surabaya
+              </h3>
+              <p class="text-base font-medium text-dark dark:text-white">
+                Surabaya, Jawa Timur
+              </p>
+              <p class="flex items-center text-sm text-secondary">
+                <img src="public/img/icon/calendar.svg" alt="Calender Icon" class="mr-1 w-5" />2022 - ...
+              </p>
+            </li>
+            <li class="col-start-2 row-start-5 mb-5 md:col-start-3">
+              <span class="relative mx-auto mt-10 block h-5 w-5 rounded-full bg-primary">
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div id="work-data" class="mt-10 hidden h-[30rem] w-full justify-evenly px-4">
+          <h3 class="text-xl font-semibold text-dark dark:text-white">Work doesn't exist</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Qualification End -->
+
+  <!-- Achievement Start -->
+  <section id="achievement" class="bg-slate-800 pb-20 pt-10 dark:bg-slate-300 lg:pt-24">
+    <div class="container">
+      <div class="w-full px-4 text-center">
+        <h1 class="mb-3 text-lg font-bold uppercase text-primary">
+          Achievement
+        </h1>
+        <h2 class="mb-5 text-3xl font-bold text-white dark:text-dark">
+          My Achievement
+        </h2>
+        <p class="text-base font-medium text-secondary">
+          These are some achievements that I got in the last few years
+        </p>
+      </div>
+      <div class="mx-auto mt-10 w-full px-4 lg:w-3/5">
+        <div class="flex justify-around">
+          <button class="flex w-10 items-center justify-center md:w-14">
+            <img src="public/img/icon/arrow-left.svg" alt="Arrow Left Icon" id="arrow-left-achievement"
+              class="w-8 rounded-full bg-primary transition duration-500 ease-in-out hover:bg-red-400 hover:shadow-lg md:w-12" />
+          </button>
+          <div
+            class="achievement-slider mx-2 h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-slate-200 bg-cover object-contain shadow-lg dark:bg-dark">
+            <video poster="public/img/achievement/1.jpg" controls
+              class="w-full"></video>
+            <div class="px-4 py-3 text-center">
+              <h3 class="mb-2 text-base font-semibold text-dark dark:text-white">
+                FLS2N 2020 Short Film Category
+              </h3>
+              <p class="text-sm font-medium text-secondary">
+                In FLS2N (Festival Lomba Seni Siswa Nasional) 2020, my team of 4 people and I participated in the short
+                film category with the theme "Achieving, Superior, and Global". At the time of the assessment, my team
+                was ranked 4th in the Bali provincial level.
+              </p>
+              <p class="mt-5 text-sm font-medium text-dark dark:text-white"><a href="https://drive.google.com/file/d/1FIlN2N-bnLsl1MSbErGpU4JLzGucjK2N/view?usp=share_link" target="_blank">Alternative Link to Video</a></p>
+            </div>
+          </div>
+          <div
+            class="achievement-slider mx-2 hidden h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-slate-200 bg-cover object-contain shadow-lg dark:bg-dark">
+            <video poster="public/img/achievement/2.jpg" controls class="w-full"></video>
+            <div class="px-4 py-3 text-center">
+              <h3 class="mb-2 text-base font-semibold text-dark dark:text-white">
+                Short Video Competition for the 75th Anniversary of the Republic of Indonesia
+              </h3>
+              <p class="text-sm font-medium text-secondary">
+                In commemoration of Indonesia's 75th anniversary, my friend and I took part in a short video competition
+                on Instagram. The competition was organized by the Koran Buleleng. In the competition, my team won
+                1st place and favorite winner
+              </p>
+              <p class="mt-5 text-sm font-medium underline text-dark dark:text-white"><a href="https://drive.google.com/file/d/1knzWqkrUztjSMSUh-oxrE6DbpprriHPR/view?usp=share_link" target="_blank">Alternative Link to Video</a></p>
+            </div>
+          </div>
+          <div
+            class="achievement-slider mx-2 hidden h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-slate-200 bg-cover object-contain shadow-lg dark:bg-dark">
+            <video poster="public/img/achievement/3.jpg" controls class="w-full"></video>
+            <div class="px-4 py-3 text-center">
+              <h3 class="mb-2 text-base font-semibold text-dark dark:text-white">
+                PMR Journalism Competition for Heroes
+              </h3>
+              <p class="text-sm font-medium text-secondary">
+                KSR-PMI Unit Poltekkes Kemenkes Denpasar held a journalism competition at the level of the hero at the
+                3rd editorial competition. In the competition, my team and I, which consisted of 3 people, won 1st place
+                and the overall winner for SMA Negeri 1 Singaraja.
+              </p>
+              <p class="mt-5 text-sm font-medium text-dark dark:text-white"><a href="https://drive.google.com/file/d/15sF9ITrRj4UaDiFIf8Iv3qpEDbZojYCm/view?usp=share_link" target="_blank">Alternative Link to Video</a></p>
+            </div>
+          </div>
+          <button class="flex w-10 items-center justify-center md:w-14">
+            <img src="public/img/icon/arrow-right.svg" alt="Arrow Right Icon" id="arrow-right-achievement"
+              class="w-8 rounded-full bg-primary transition duration-500 ease-in-out hover:bg-red-400 hover:shadow-lg md:w-12" />
+          </button>
+        </div>
+        <div class="mx-auto mt-5 flex w-full items-center justify-center px-4">
+          <button id="achievement-btn-slider-1"
+            class="button-slider-active achievement-btn-slider mx-3 h-2 w-14 rounded-full bg-slate-500 transition duration-500 ease-in-out hover:brightness-125"></button>
+          <button id="achievement-btn-slider-2"
+            class="achievement-btn-slider mx-3 h-2 w-14 rounded-full bg-slate-500 transition duration-500 ease-in-out hover:brightness-125"></button>
+          <button id="achievement-btn-slider-3"
+            class="achievement-btn-slider mx-3 h-2 w-14 rounded-full bg-slate-500 transition duration-500 ease-in-out hover:brightness-125"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Achievement End -->
+
+  <!-- Gallery Start -->
+  <section id="gallery" class="bg-slate-100 pb-20 pt-10 dark:bg-slate-800 lg:pt-24">
+    <div class="container">
+      <div class="w-full px-4 text-center">
+        <h1 class="mb-3 text-lg font-bold uppercase text-primary">Gallery</h1>
+        <h2 class="mb-5 text-3xl font-bold text-dark dark:text-white">
+          My Gallery
+        </h2>
+        <p class="text-base font-medium text-secondary">
+          These are some photos that I took some time ago while doing activities with my family and friends. Judging
+          from all the photos below, of course you can guess my favorite place is the beach.
+        </p>
+      </div>
+      <div class="mx-auto mt-10 w-full px-4">
+        <div class="flex flex-wrap justify-center">
+          <div class="m-3 overflow-hidden rounded-lg shadow-xl lg:w-1/3">
+            <img src="public/img/gallery/1.jpg" alt="Gallery" width="w-full" />
+          </div>
+          <div class="m-3 overflow-hidden rounded-lg shadow-xl lg:w-1/3">
+            <img src="public/img/gallery/2.jpg" alt="Gallery" width="w-full" />
+          </div>
+          <div class="m-3 overflow-hidden rounded-lg shadow-xl lg:w-1/3">
+            <img src="public/img/gallery/3.jpg" alt="Gallery" width="w-full" />
+          </div>
+          <div class="m-3 overflow-hidden rounded-lg shadow-xl lg:w-1/3">
+            <img src="public/img/gallery/4.jpg" alt="Gallery" width="w-full" />
+          </div>
+          <div class="m-3 overflow-hidden rounded-lg shadow-xl lg:w-1/3">
+            <img src="public/img/gallery/5.jpg" alt="Gallery" width="w-full" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Gallery End -->
+
+  <!-- Portfolio Start -->
+  <section id="portfolio" class="bg-slate-800 pb-20 pt-10 dark:bg-slate-300 lg:pt-24">
+    <div class="container">
+      <div class="w-full px-4 text-center">
+        <h1 class="mb-3 text-lg font-bold uppercase text-primary">
+          Portfolio
+        </h1>
+        <h2 class="mb-5 text-3xl font-bold text-white dark:text-dark">
+          My Portfolio
+        </h2>
+        <p class="text-base font-medium text-secondary">
+          These are some of the portfolios I have so far. Wait for the next portfolio soon!
+        </p>
+      </div>
+      <div class="mx-auto mt-10 w-full px-4 lg:w-3/5">
+        <div class="flex justify-around">
+          <button class="flex w-10 items-center justify-center md:w-14">
+            <img src="public/img/icon/arrow-left.svg" alt="Arrow Left Icon" id="arrow-left-portfolio"
+              class="w-8 rounded-full bg-primary transition duration-500 ease-in-out hover:bg-red-400 hover:shadow-lg md:w-12" />
+          </button>
+          <div
+            class="portfolio-slider mx-2 h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-slate-200 bg-cover object-contain shadow-lg dark:bg-dark">
+            <img src="public/img/portfolio/1.png" alt="Portfolio 1" />
+            <div class="px-4 py-4 text-center">
+              <h3 class="mb-2 text-base font-semibold text-dark dark:text-white">
+                Mini Game
+              </h3>
+              <p class="mb-3 text-sm font-medium text-secondary">
+                Mini game is a website that contains a unique game. This game is a simple game that of course everyone
+                must have played it. The game with the name "scissors, rock, paper" I implemented it in the form of a
+                web game that would later fight a smart bot.
+              </p>
+              <a href="https://satyamahinsa.github.io/mini-game/" target="_blank"
+                class="mb-10 rounded-full bg-primary py-3 px-4 text-sm text-white transition duration-500 hover:bg-red-400 hover:shadow-lg">Demo
+                <img src="public/img/icon/arrow-circle-right.svg" alt="Arrow Right" class="inline h-5 w-5 pb-0.5" /></a>
+            </div>
+          </div>
+          <button class="flex w-10 items-center justify-center md:w-14">
+            <img src="public/img/icon/arrow-right.svg" alt="Arrow Right Icon" id="arrow-right-portfolio"
+              class="w-8 rounded-full bg-primary transition duration-500 ease-in-out hover:bg-red-400 hover:shadow-lg md:w-12" />
+          </button>
+        </div>
+        <div class="mx-auto mt-5 flex w-full items-center justify-center px-4">
+          <button id="portfolio-btn-slider-1"
+            class="button-slider-active portfolio-btn-slider mx-3 h-2 w-14 rounded-full bg-slate-500 transition duration-500 ease-in-out hover:brightness-125"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio End -->
+
+  <!-- Contact Start -->
+  <!-- <section id="contact" class="pb-20 pt-10 dark:bg-slate-800 lg:pt-24">
+    <div class="container">
+      <div class="w-full px-4 text-center">
+        <h1 class="mb-3 text-lg font-bold uppercase text-primary">Contact</h1>
+        <h2 class="mb-5 text-3xl font-bold text-dark dark:text-white">
+          Contact Me
+        </h2>
+        <p class="text-base font-medium text-secondary">
+          You can use the form below to provide suggestions, criticisms, or messages that you want to convey to me.
+          Waiting for your message!
+        </p>
+      </div>
+      <form id="contact-form" action="https://formspree.io/f/xeqdageo" method="POST">
+        <div class="w-full lg:mx-auto lg:w-2/3">
+          <div class="mt-10 w-full px-4">
+            <label for="name" class="text-base font-bold text-primary">Name</label>
+            <input type="text" id="name" name="name"
+              class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+              required />
+          </div>
+          <div class="mt-5 w-full px-4">
+            <label for="email" class="text-base font-bold text-primary">Email</label>
+            <input type="email" id="email" name="email"
+              class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+              required />
+          </div>
+          <div class="mt-5 w-full px-4">
+            <label for="message" class="text-base font-bold text-primary">Message</label>
+            <textarea name="message" id="message" cols="30" rows="5"
+              class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+              required>
+            </textarea>
+          </div>
+          <div class="mt-5 w-full px-4">
+            <button type="submit"
+              class="w-full rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-500 hover:bg-red-400 hover:shadow-lg">
+              Submit
+            </button>
+          </div>
+          <div class="loader hidden ease-linear mt-5 rounded-full border-4 border-t-4 border-gray-200 h-6 w-6 mx-auto">
+          </div>
+          <p id="success-message" class="hidden text-base font-medium text-green-500 text-center mt-5">Your message was
+            successfully sent! Thank you!</p>
+          <p id="failed-message" class="hidden text-base font-medium text-red-500 text-center mt-5">Your message was
+            failed sent! Try Again!</p>
+        </div>
+      </form>
+    </div>
+  </section> -->
+  <!-- Contact End -->
+
+  <!-- Footer Start -->
+  <footer id="footer" class="bg-dark pb-20 pt-10 lg:pt-24">
+    <div class="container">
+      <div class="flex flex-wrap">
+        <div class="mb-10 w-full px-4 font-medium text-slate-300 md:w-1/3">
+          <h1 class="mb-5 text-4xl font-bold text-white">Satyamahinsa</h1>
+          <h2 class="mb-2 text-2xl font-bold">Web Developer</h2>
+          <p>satyamahinsaa.pu@gmail.com</p>
+          <p>Jl. Gajah Mada No.126</p>
+          <p>Singaraja - Bali</p>
+        </div>
+        <div class="mb-10 w-full px-4 md:w-1/3">
+          <h3 class="mb-5 text-xl font-semibold text-white">Portfolio</h3>
+          <ul class="text-slate-300">
+            <li>
+              <a href="" class="mb-3 inline-block text-base hover:text-primary">Mini Game</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mb-10 w-full px-4 md:w-1/3">
+          <h3 class="mb-5 text-xl font-semibold text-white">Tautan</h3>
+          <ul class="text-slate-300">
+            <li>
+              <a href="#home" class="mb-3 inline-block text-base hover:text-primary">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="mb-3 inline-block text-base hover:text-primary">About</a>
+            </li>
+            <li>
+              <a href="#qualification" class="mb-3 inline-block text-base hover:text-primary">Qualification</a>
+            </li>
+            <li>
+              <a href="#achievememnt" class="mb-3 inline-block text-base hover:text-primary">Achievement</a>
+            </li>
+            <li>
+              <a href="#gallery" class="mb-3 inline-block text-base hover:text-primary">Gallery</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="mb-3 inline-block text-base hover:text-primary">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="w-full border-t border-slate-700 pt-10">
+        <div class="mb-5 flex items-center justify-center">
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/satyamahinsaa" target="_blank"
+            class="mr-3 flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 text-white transition duration-300 hover:border-primary hover:bg-primary">
+            <img src="public/img/icon/instagram.svg" alt="Instagram Icon" width="25" />
+          </a>
+          <!-- Youtube -->
+          <a href="https://www.youtube.com/channel/UCiFOr7HJj3o3up51JXvr0_A" target="_blank"
+            class="mr-3 flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 text-white transition duration-300 hover:border-primary hover:bg-primary">
+            <img src="public/img/icon/youtube.svg" alt="Youtube Icon" width="25" />
+          </a>
+          <!-- Twitter -->
+          <a href="https://www.twitter.com/satyamahinsaa" target="_blank"
+            class="mr-3 flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 text-white transition duration-300 hover:border-primary hover:bg-primary">
+            <img src="public/img/icon/twitter.svg" alt="Twitter Icon" width="25" />
+          </a>
+          <!-- Email -->
+          <a href="https://www.instagram.com/satyamahinsaa" target="_blank"
+            class="mr-3 flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 text-white transition duration-300 hover:border-primary hover:bg-primary">
+            <img src="public/img/icon/at.svg" alt="Email Icon" width="25" />
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/satyamahinsaa" target="_blank"
+            class="mr-3 flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 text-white transition duration-300 hover:border-primary hover:bg-primary">
+            <img src="public/img/icon/linkedin.svg" alt="LinkedIn Icon" width="25" />
+          </a>
+          <!-- Github -->
+          <a href="https://www.github.com/satyamahinsaa" target="_blank"
+            class="mr-3 flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 text-white transition duration-300 hover:border-primary hover:bg-primary">
+            <img src="public/img/icon/github.svg" alt="Github Icon" width="25" />
+          </a>
+        </div>
+        <p class="text-center text-sm font-medium text-slate-300">
+          Created by
+          <a href="https://www.instagram.com/satyamahinsaa" target="_blank"
+            class="font-bold text-primary">Satyamahinsa</a>
+          🙌
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- To Top Button Start -->
+  <a href="#home" id="to-top" class="hidden cursor-pointer hover:animate-pulse">
+    <img src="public/img/icon/angle-double-up.svg" alt="Arrow Up Icon"
+      class="fixed bottom-16 right-4 z-[5] h-10 w-10 rounded-full bg-primary lg:bottom-4 lg:h-14 lg:w-14" />
+  </a>
+  <!-- To Top Button End -->
+
+  <!-- Script -->
+  <script src="public/js/script.js"></script>
+</body>
+
+</html>
