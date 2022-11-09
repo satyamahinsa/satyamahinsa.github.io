@@ -211,11 +211,18 @@ arrowRightPortfolio.addEventListener("click", () => {
 // Portfolio Button Slider
 const portfolioBtnSlider1 = document.querySelector("#portfolio-btn-slider-1");
 const portfolioBtnSlider2 = document.querySelector("#portfolio-btn-slider-2");
-const portfolioBtnSlider3 = document.querySelector("#portfolio-btn-slider-3");
 
 portfolioBtnSlider1.addEventListener("click", () => {
   showContentSlider(
     (slideIndex = 1),
+    "portfolio-slider",
+    "portfolio-btn-slider"
+  );
+});
+
+portfolioBtnSlider2.addEventListener("click", () => {
+  showContentSlider(
+    (slideIndex = 2),
     "portfolio-slider",
     "portfolio-btn-slider"
   );
